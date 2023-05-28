@@ -1,0 +1,33 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    * {
+        color: $main-color;
+    }
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+        margin-top: 60px;
+    }
+
+    &__list {
+        display: flex;
+        li {
+            &:first-child {
+                margin-right: 100px;
+            }
+        }
+        li a {
+            position: relative;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            transition: .3s ease;
+        }
+    }
+
+}

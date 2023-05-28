@@ -1,0 +1,37 @@
+.home {
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(61, 61, 61, 0.2), rgba(61, 61, 61, 0.2)), #FF0000;;
+    * {
+        color: $main-color;
+    }
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;   
+    }
+
+    &__heading {
+        max-width: 650px;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 116px;
+        margin-right: 365px;
+        span {
+            color: $text;
+        }
+    }
+
+    &__image {
+        margin-top: 50px;
+        width: 395px;
+        height: 737px;
+        background: url(/source/main.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: auto;
+    }
+}

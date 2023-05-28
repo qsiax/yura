@@ -1,0 +1,41 @@
+// Import Start Setting
+@import '_font';
+@import '_reset';
+@import '_ui';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	overflow-x: hidden;
+	font-size: 16px; 
+	color: $text;
+	background: $main-color;
+    font-family: $font;
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+	a {
+		text-decoration: none;
+		color: $text;
+	}
+	li {
+		list-style: none;
+	}
+}
+
+._container {
+	max-width: 1520px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+@import '_header';
+@import '_home';
+@import '_about';
+@import '_footer';
